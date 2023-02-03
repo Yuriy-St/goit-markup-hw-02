@@ -37,12 +37,12 @@ body {
   display: none;
 }
 
-.text-centered {
-  text-align: center;
+.list {
+  list-style: none;
 }
 
-ul {
-  list-style: none;
+.text-centered {
+  text-align: center;
 }
 
 /* Header */
@@ -102,6 +102,18 @@ ul {
   cursor: pointer;
 }
 
+.button-filter {
+  color: var(--color-primary-brand);
+  background-color: var(--color-light);
+  border-color: var(--color-accent);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--color-white);
+  background-color: var(--color-pressed-state);
+}
+
 .button:hover,
 .button:focus {
   background-color: var(--color-pressed-state);
@@ -125,6 +137,10 @@ ul {
 }
 
 .team-card {
+  background-color: var(--color-white);
+}
+
+.project-card {
   background-color: var(--color-white);
 }
 
